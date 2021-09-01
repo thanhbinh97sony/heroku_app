@@ -5,7 +5,7 @@ const db = config.get('mongoURL')
 const connectDB = async () => {
     try {
         await mongoose.connect(db, {
-
+        
         })
         console.log("Ket noi DB thanh cong")
     } catch (error) {

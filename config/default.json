@@ -1,3 +1,3 @@
 {
-    "mongoURL":"mongodb://127.0.0.1:27017/henrt_dev"
+    "mongoURL": "mongodb+srv://thanhbinhsony123:E5J.-Pd2R7DqQt7@cluster0.xdca9.mongodb.net/henry_dev?retryWrites=true&w=majority"
 }
