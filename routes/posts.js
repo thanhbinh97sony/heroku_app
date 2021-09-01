@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Load model
-const Posts = require('/models/Posts');
+const Posts = require('../models/Posts');
 // Hien thi cac bai viet
 router.get('/posts', async (req, res) => {
     const posts = await Posts.find().lean().sort({ date: -1 })
