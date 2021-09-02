@@ -19,6 +19,6 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
   res.render('about')
 });
-app.use('/', posts)
+app.use("/", posts)
 
 app.listen(port, () => console.log(`Server khoi dong tai port ${port}`))

@@ -9,7 +9,7 @@
     <p class="card-text" style="text-overflow: ellipsis;white-space: wrap;word-wrap: break-word;overflow: hidden;max-height: 2.5em;line-height: 1.3em;">
         {{this.text}}
     </p>
-    <a href="put/{{this._id}}" class="btn btn-primary">Edit</a>
+    <a href="/edit/{{this._id}}" class="btn btn-primary">Edit</a>
     <form action="/delete/{{this._id}}?_method=DELETE" method="post" class="d-flex flex-column bd-highlight">
       <input type="hidden" name="_method" value="DELETE">
       <button type="submit" href="/delete/{{this._id}}?_method=DELETE" class="mt-2 btn btn-danger d-flex justify-content-center">Delete</button>
